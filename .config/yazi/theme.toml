@@ -1,0 +1,95 @@
+# general 
+[manager]
+marker_copied   = { fg = "#00FF23", bg = "#00FF23" } # green
+marker_cut      = { fg = "#00FF23", bg = "#00FF23" } # green
+marker_marked   = { fg = "#00FF23", bg = "#00FF23" } # green
+marker_selected = { fg = "#00FF23", bg = "#00FF23" } # green
+
+cwd = { fg = "#00FF23" } # green
+hovered = { reversed = true }
+preview_hovered = { reversed = true }
+
+tab_active   = { reversed = true }
+tab_inactive = {}
+tab_width    = 1
+
+# default bg
+count_copied   = { fg = "#000000", bg = "#00FF23" } # green
+count_cut      = { fg = "#000000", bg = "#00FF23" } # green
+count_selected = { fg = "#000000", bg = "#00FF23" } # green
+
+border_symbol = "│"
+border_style = { fg = "#00FF23" } # green
+
+# status-line
+[status]
+overall = { fg = "#00FF23", bg = "#000000", bold = true }
+
+
+# Permissions
+perm_type = { fg = "#92FC03", bold = true }
+perm_read = { fg = "#FF532E" }
+perm_write = { fg = "#00FF23" }
+perm_exec = { fg = "#E0FF2E", bold = true }
+perm_sep = { fg = "#2EFF34" }
+
+# Progress
+progress_label = { fg = "#00FF23", bold = true }
+progress_normal = { fg = "#00FF23", bg = "#000000", bold = true }
+progress_error = { fg = "#FF0000", bg = "#000000", bold = true }
+
+
+[select]
+border   = { fg = "#00FF23" } # green
+active   = { fg = "#00FF23", bold = true } # green
+inactive = {}
+
+[input]
+border   = { fg = "#00FF23" } # green
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+[completion]
+border   = { fg = "#00FF23" } # green
+active   = { reversed = true }
+inactive = {}
+
+[tasks]
+border  = { fg = "#00FF23" } # green
+title   = {}
+hovered = { fg = "#00FF23" } # green
+
+[which]
+cols = 2
+separator = " - "
+separator_style = { fg = "#00FF23" } # green
+mask = { bg = "#000000" } # black bg
+rest = { fg = "#00FF23" } # green
+cand = { fg = "#00FF23" }
+desc = { fg = "#00FF23" }
+
+[help]
+on      = { fg = "#00FF23" } # green
+run     = { fg = "#00FF23" } # green
+desc    = {}
+hovered = { reversed = true, bold = true }
+footer  = { fg = "#000000", bg = "#00FF23" } # green
+
+[notify]
+title_info  = { fg = "#00FF23" } # green
+title_warn  = { fg = "#00FF23" } # green
+title_error = { fg = "#00FF23" } # green
+
+# files
+[filetype]
+rules = [
+    { mime = "image/*", fg = "#00FF23" },
+    { mime = "{audio,video}/*", fg = "#00FF23" },
+    { mime = "application/{,g}zip", fg = "#00FF23" },
+    { mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#00FF23" },
+    { mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#00FF23" },
+    { name = "*", is = "orphan", fg = "#00FF23" },
+    { name = "*", is = "exec", fg = "#00FF23" },
+    { name = "*/", fg = "#00FF23" }
+]

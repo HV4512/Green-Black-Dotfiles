@@ -1,0 +1,73 @@
+# General Settings
+daemonize
+ignore-empty-password
+show-failed-attempts
+
+image=~/.cache/current_wallpaper.jpg
+
+font="Fora Sans Semibold"
+color=ffffffFF
+
+fade-in=0.3
+
+
+
+#Font
+
+# Clock and Date
+clock
+timestr=%R
+datestr=%a, %B %e
+
+# Background Image and Effects
+
+effect-blur=20x6
+#effect-vignette=1:1
+
+# Indicator Circle
+indicator
+indicator-radius=200
+indicator-thickness=20
+indicator-caps-lock
+
+# Colors
+
+## Line Colors
+line-color=1f1d2e
+line-ver-color=eb6f92
+line-clear-color=1f1d2e
+line-wrong-color=1f1d2e
+
+## Ring Colors
+ring-color=ffffffFF
+ring-ver-color=ffffffFF
+ring-clear-color=ffffffFF
+ring-wrong-color=ffffffFF
+
+## Inside Colors
+inside-color=1f1d2e00
+inside-ver-color=1f1d2e00
+inside-clear-color=1f1d2e00
+inside-wrong-color=1f1d2e00
+
+## Text Colors
+text-color=e0def4
+text-ver-color=e0def4
+text-clear-color=e0def4
+text-wrong-color=31748f
+text-caps-lock-color=""
+
+## Key Highlight Color
+key-hl-color=00FF23
+
+## Separator Color
+separator-color=00000000
+
+## Backspace Highlight Color
+bs-hl-color=31748f
+disable-caps-lock-text
+
+
+
+
+
